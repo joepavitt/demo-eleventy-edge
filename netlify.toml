@@ -21,24 +21,3 @@ path = "/appearance/"
 [[edge_functions]]
 function = "eleventy-edge"
 path = "/*"
-
-[[redirects]]
-from = "/tests/serverless/njk/"
-to = "/.netlify/functions/possum"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "possum"
-
-[[redirects]]
-from = "/tests/serverless/liquid/"
-to = "/.netlify/functions/possum"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "possum"
-
-[[redirects]]
-from = "/tests/serverless/javascript/"
-to = "/.netlify/functions/possum"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "possum"
